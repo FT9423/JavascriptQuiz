@@ -1,0 +1,129 @@
+<html>
+    
+ <head>
+    <!--BootStrap CSS CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--FontAwesome v5.2 CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <!--GoolgeFonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Modak&display=swap" rel="stylesheet">
+    <!--ExternalStyleSheet-->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+ </head>
+
+ <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1> Spanish Quiz</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>How do you say ... in spanish? </h2> 
+                <h4>(Hint: Capatilize first letter of each answer)  (5 questions in total)</h4>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-2">
+                <p style="color:8338ec;">Question #1</p> 
+            </div>
+            <div class="col-sm-10">
+               <label for="a1">How do you say "Hello" in spanish?</label>
+               <span id="icon1"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                <p>Answer #1</p>
+            </div>
+            <div class="col-sm-10">
+                <input placeholder="Your Answer" required="required" id="a1">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-2">
+                <p style="color:8338ec;">Question #2</p> 
+            </div>
+            <div class="col-sm-10">
+                <label for="a2">How do you say "Good Bye" in spanish?</label>
+                <span id="icon2"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                <p>Answer #2</p>
+            </div>
+            <div class="col-sm-10">
+                <input placeholder="Your Answer" required="required" id="a2">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-2">
+                <p style="color:8338ec;">Question #3</p> 
+            </div>
+            <div class="col-sm-10">
+                <label for="a3">How do you say "Please" in spanish?</label>
+                <span id="icon3"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                <p>Answer #3</p>
+            </div>
+            <div class="col-sm-10">
+                <input placeholder="Your Answer" required="required" id="a3">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-2">
+                <p style="color:8338ec;">Question #4</p> 
+            </div>
+            <div class="col-sm-10">
+                <label for="a4">How do you say "Thank you" in spanish?</label>
+                <span id="icon4"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                <p>Answer #4</p>
+            </div>
+            <div class="col-sm-10">
+                <input placeholder="Your Answer" required="required" id="a4">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-2">
+                <p style="color:8338ec;">Question #5</p> 
+            </div>
+            <div class="col-sm-10">
+                <label for="a5">How do you say "Sorry" in spanish?</label>
+                <span id="icon5"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+                <p>Answer #5</p>
+            </div>
+            <div class="col-sm-10">
+                <input placeholder="Your Answer" required="required" id="a5">
+            </div>
+        </div>
+    </div>
+    <hr>
+    <button type="button" class="btn btn-success btn-lg" onClick="submitAnswers();">Submit Answers</button>
+    <button type="button" class="btn btn-danger btn-lg" onClick="clearAnswers();">Clear My Answers</button>
+
+
+ <script src="java.js"></script>
+ 
+
+
+ </body>
+
+ </html>
